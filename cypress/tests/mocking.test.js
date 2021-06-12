@@ -1,5 +1,5 @@
 /* eslint-disable  no-undef,import/extensions */
-import Custom from '../../utils/custom.js';
+import Custom from '../utils/custom.js';
 
 const custom = new Custom();
 /**
@@ -14,7 +14,7 @@ describe('Validate the macking response', () => {
     cy.server();
     // mocking the products api response data
     cy.route('GET', 'https://nodes-api-demo.vercel.app/api/products', '@productsData').as('productsapi');
-    custom.navigateTo(Cypress.env('ENV'));
+    custom.navigateTo(Cypress.env('ENV')+'');
   });
   it('test mocking response', () => {
     cy.get('@usersData').then((usersData) => {

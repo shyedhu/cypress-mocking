@@ -8,6 +8,8 @@ import Custom from '../utils/custom.js';
 const custom = new Custom();
 
 Cypress.Commands.add('login', (user, password) => {
+  custom.selectorVisible(homepage.lnkLogin);
+  custom.clickElement(homepage.lnkLogin);
   custom.selectorVisible(loginpage.txtUsername);
   custom.selectorVisible(loginpage.txtPassword);
   custom.selectorVisible(loginpage.btnLogin);

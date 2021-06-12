@@ -7,6 +7,6 @@ COPY ./cypress.json ./cypress.json
 COPY ./package.json ./package.json
 RUN npm install
 # Run the e2e tests on chrome browser
-RUN npx cypress run --headless --browser chrome -e ENV=http://shyedhu-shop-react-app.s3-website-us-west-2.amazonaws.com/login 
+RUN npx cypress run --headless --browser chrome -e ENV=http://shyedhu-shop-react-app.s3-website-us-west-2.amazonaws.com
 # Run the e2e tests on firefox browser
-RUN npx cypress run --headless --browser firefox -e ENV=http://shyedhu-shop-react-app.s3-website-us-west-2.amazonaws.com/login 
+RUN npx cypress run --headless --browser firefox -e ENV=http://shyedhu-shop-react-app.s3-website-us-west-2.amazonaws.com
