@@ -1,8 +1,8 @@
 # cypress-mocking
 
-This repo contains Mocking tests using cypress.io with javascript
+This repo contains Mock Data Approaches using cypress.io with javascript
 
-![](https://github.com/shyedhu/images/blob/main/cypress-test-run.gif)
+![](https://github.com/shyedhu/images/blob/main/cypress-mock-test-run.gif)
 
 ## Prerequisites
 
