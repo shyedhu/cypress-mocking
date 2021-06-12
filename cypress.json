@@ -3,7 +3,7 @@
   "fixturesFolder": "cypress/fixtures",
   "screenshotsFolder": "cypress/report/mochawesome-report/assets",
   "supportFile": "cypress/support",
-  "pageLoadTimeout": 90000,
+  "pageLoadTimeout": 60000,
   "requestTimeout": 10000,
   "responseTimeout": 10000,
   "taskTimeout": 10000,
